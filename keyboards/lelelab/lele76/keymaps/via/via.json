@@ -339,38 +339,43 @@
             "label": "Display",
             "content": [
                 {
-                    "label": "Brightness",
-                    "type": "range",
-                    "options": [
-                        0,
-                        255
-                    ],
+                    "label": "OLED",
                     "content": [
-                        "id_oled_brightness",
-                        0,
-                        21
-                    ]
-                },
-                {
-                    "label": "Invert",
-                    "type": "toggle",
-                    "content": [
-                        "id_oled_invert",
-                        0,
-                        22
-                    ]
-                },
-                {
-                    "label": "Timeout",
-                    "type": "range",
-                    "options": [
-                        0,
-                        255
-                    ],
-                    "content": [
-                        "id_oled_timeout",
-                        0,
-                        29
+                        {
+                            "label": "Brightness",
+                            "type": "range",
+                            "options": [
+                                0,
+                                255
+                            ],
+                            "content": [
+                                "id_oled_brightness",
+                                0,
+                                21
+                            ]
+                        },
+                        {
+                            "label": "Invert",
+                            "type": "toggle",
+                            "content": [
+                                "id_oled_invert",
+                                0,
+                                22
+                            ]
+                        },
+                        {
+                            "label": "Timeout",
+                            "type": "range",
+                            "options": [
+                                0,
+                                255
+                            ],
+                            "content": [
+                                "id_oled_timeout",
+                                0,
+                                29
+                            ]
+                        }
                     ]
                 }
             ]
