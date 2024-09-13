@@ -216,22 +216,44 @@
                         },
                         {
                             "showIf": "{id_backight_effect} == 1 || {id_backight_effect} == 2 || {id_backight_effect} == 6 || {id_backight_effect} == 7 || {id_backight_effect} == 8, || {id_backight_effect} == 9 || {id_backight_effect} == 11",
-                            "label": "Color",
-                            "type": "color",
+                            "label": "Hue",
+                            "type": "range",
+                            "options": [
+                                0,
+                                255
+                            ],
                             "content": [
-                                "id_backight_color",
+                                "id_backight_hue",
                                 1,
                                 4
                             ]
                         },
                         {
                             "showIf": "{id_backight_effect} == 6 || {id_backight_effect} == 7",
-                            "label": "Color 2",
-                            "type": "color",
+                            "label": "Hue 2",
+                            "type": "range",
+                            "options": [
+                                0,
+                                255
+                            ],
                             "content": [
-                                "id_backight_color_2",
+                                "id_backight_hue_2",
                                 1,
                                 5
+                            ]
+                        },
+                        {
+                            "showIf": "{id_backight_effect} == 1 || {id_backight_effect} == 2 || {id_backight_effect} == 6 || {id_backight_effect} == 7 || {id_backight_effect} == 8, || {id_backight_effect} == 9 || {id_backight_effect} == 11",
+                            "label": "Saturation",
+                            "type": "range",
+                            "options": [
+                                0,
+                                255
+                            ],
+                            "content": [
+                                "id_backight_saturation",
+                                1,
+                                6
                             ]
                         }
                     ]
