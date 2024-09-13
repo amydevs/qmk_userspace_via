@@ -255,6 +255,20 @@
                                 0,
                                 6
                             ]
+                        },
+                        {
+                            "showIf": "{id_backight_effect} != 0",
+                            "label": "Timeout",
+                            "type": "range",
+                            "options": [
+                                0,
+                                255
+                            ],
+                            "content": [
+                                "id_backlight_timeout",
+                                0,
+                                9
+                            ]
                         }
                     ]
                 },
@@ -301,6 +315,20 @@
                                 "id_underglow_effect_speed",
                                 0,
                                 13
+                            ]
+                        },
+                        {
+                            "showIf": "{id_underglow_effect} != 0",
+                            "label": "Timeout",
+                            "type": "range",
+                            "options": [
+                                0,
+                                255
+                            ],
+                            "content": [
+                                "id_underglow_timeout",
+                                0,
+                                19
                             ]
                         }
                     ]
