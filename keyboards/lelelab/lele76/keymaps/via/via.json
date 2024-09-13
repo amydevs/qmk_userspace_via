@@ -185,7 +185,7 @@
                             "options": [
                                 "All Off",
                                 "Solid",
-                                "Breathe",
+                                "Breathing",
                                 "Rainbow",
                                 "Rainbow H",
                                 "Rainbow V",
@@ -256,6 +256,55 @@
                                 6
                             ]
                         }
+                    ]
+                },
+                {
+                    "label": "Underglow",
+                    "content": [
+                        {
+                            "label": "Brightness",
+                            "type": "range",
+                            "options": [
+                                0,
+                                255
+                            ],
+                            "content": [
+                                "id_underglow_brightness",
+                                2,
+                                1
+                            ]
+                        },
+                        {
+                            "label": "Effect",
+                            "type": "dropdown",
+                            "content": [
+                                "id_qmk_backlight_effect",
+                                2,
+                                2
+                            ],
+                            "options": [
+                                [
+                                    "Off",
+                                    "Breathing",
+                                    "Key Flash",
+                                    "Static"
+                                ]
+                            ]
+                        },
+                        {
+                            "showIf": "{id_backight_effect} != 0",
+                            "label": "Effect Speed",
+                            "type": "range",
+                            "options": [
+                                0,
+                                255
+                            ],
+                            "content": [
+                                "id_qmk_backlight_effect_speed",
+                                2,
+                                3
+                            ]
+                        },
                     ]
                 }
             ]
